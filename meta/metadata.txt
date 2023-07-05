@@ -1,0 +1,25 @@
+Sample	Cell Line	Treatment
+1B_S1	A2780	DMSO
+1D_S2	A2780	DMSO
+1E_S3	A2780	DMSO
+2A_S4	A2780	Cisplatin
+2B_S5	A2780	Cisplatin
+2D_S6	A2780	Cisplatin
+3F_S7	A2780	Cisplatin_C1
+3G_S8	A2780	Cisplatin_C1
+3H_S9	A2780	Cisplatin_C1
+4F_S10	A2780	Cisplatin_C1_24hrs
+4G_S11	A2780	Cisplatin_C1_24hrs
+4H_S12	A2780	Cisplatin_C1_24hrs
+5B_S13	A2780cisR	DMSO
+5C_S14	A2780cisR	DMSO
+5D_S15	A2780cisR	DMSO
+6B_S16	A2780cisR	Cisplatin
+6C_S17	A2780cisR	Cisplatin
+6D_S18	A2780cisR	Cisplatin
+7B_S19	A2780cisR	Cisplatin_C1
+7D_S20	A2780cisR	Cisplatin_C1
+7E_S21	A2780cisR	Cisplatin_C1
+8B_S22	A2780cisR	Cisplatin_C1_24hrs
+8C_S23	A2780cisR	Cisplatin_C1_24hrs
+8D_S24	A2780cisR	Cisplatin_C1_24hrs

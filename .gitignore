@@ -1,0 +1,8 @@
+**/data
+**/results
+*.out
+*.err
+.DS_Store
+*.Rproj
+.Rproj.user
+.Rhistory
