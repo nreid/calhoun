@@ -32,7 +32,7 @@ META=../../meta/metadata.txt
 
 NUM=${SLURM_ARRAY_TASK_ID}
 
-SAMPLE=$(cat ${META} | sed -n ${NUM}p )
+SAMPLE=$(tail -n +2 ${META} | sed -n ${NUM}p | cut -f 1)
 echo ${SAMPLE}
 
 # run hisat2

@@ -26,5 +26,5 @@ mkdir -p ${REPORTDIR}
 
 META=../../meta/metadata.txt
 # run fastp in parallel, 4 samples at a time
-cat ${META} | parallel -j 4 \
+tail -n +2 ${META} | cut -f 1 | parallel -j 4 \
     fastqc --outdir ${REPORTDIR} ${INDIR}/{}_trim_{1..2}.fastq.gz
